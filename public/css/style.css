@@ -1,0 +1,300 @@
+
+	body {
+		margin: 0px;
+		padding: 0px;
+		background: #f3f2ed;
+		font-family: 'Lato', sans-serif;
+		font-size: 12pt;
+		font-weight: 300;
+		color: #8A8A8A;
+	}
+
+	h1, h2, h3 {
+		margin: 0px;
+		padding: 0px;
+		font-weight: 300;
+	}
+
+	p {
+		margin-bottom: 1.5em;
+		line-height: 180%;
+	}
+
+	a {
+		color: #D1551F;
+	}
+
+	strong {
+		font-weight: 700;
+		color: #2A2A2A;
+	}
+
+	/* Images */
+
+		.image
+		{
+			display: inline-block;
+		}
+		
+			.image img
+			{
+				display: block;
+				width: 100%;
+			}
+
+			.image.featured
+			{
+				display: block;
+				width: 100%;
+				margin: 0 0 2em 0;
+			}
+			
+			.image.full
+			{
+				display: block;
+				width: 100%;
+				margin: 0 0 2em 0;
+			}
+			
+			.image.left
+			{
+				float: left;
+				margin: 0 2em 2em 0;
+			}
+			
+			.image.centered
+			{
+				display: block;
+				margin: 0 0 2em 0;
+			}
+
+				.image.centered img
+				{
+					margin: 0 auto;
+					width: auto;
+				}
+
+
+	header
+	{
+		margin-bottom: 2.5em;
+	}
+
+	header h2
+	{
+		letter-spacing: -2px;
+		text-transform: uppercase;
+		font-weight: 900;
+		font-size: 2em;
+		color: #323338;
+	}
+
+	header .byline
+	{
+	}
+	
+
+	
+
+/** LIST STYLE 1 */
+
+ul.style1 {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+}
+
+ul.style1 li {
+	display: inline-block;
+	padding: 1em 0em;
+	border-top: 1px solid #E6E6E6;
+	line-height: 160%;
+}
+
+ul.style1 span
+{
+	margin-right: 0.75em;
+}
+
+ul.style1 a {
+	text-decoration: none;
+	color: #525252;
+}
+
+ul.style1 a:hover {
+	text-decoration: underline;
+}
+
+ul.style1 .first {
+	border-top: none;
+	padding-top: 0px;
+}
+
+/** LIST STYLE 3 */
+
+ul.style3 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.style3 li {
+	padding: 20px 0px 25px 0px;
+	border-top: 1px solid #E7E5DA;
+}
+
+ul.style3 a {
+	display: block;
+	text-decoration: none;
+	color: #525252;
+}
+
+ul.style3 a:hover {
+	text-decoration: underline;
+}
+
+ul.style3 .date {
+	display: inline-block;
+	margin: 0px 0px 20px 0px;
+	padding: 1em 1em;
+	background: #323338;
+	border-radius: 4px;
+	line-height: normal;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Abel', sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+ul.style3 .date b {
+}
+
+ul.style3 .date a {
+	color: #FFFFFF;
+}
+
+ul.style3 .date a:hover {
+	text-decoration: none;
+}
+
+ul.style3 .first {
+	padding-top: 0px;
+	border-top: none;
+}
+
+/** BUTTON STYLE */
+
+	/* Buttons */
+		
+		.button
+		{
+			position: relative;
+			display: inline-block;
+			margin-top: 2em;
+			padding: 1em 1.5em;
+			background: #323338;
+			border-radius: 4px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 1.1em;
+			color: #FFF;
+			-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			-webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			cursor: pointer;
+		}
+
+			.button:hover
+			{
+				background: #1f2023;
+				color: #FFF !important;
+			}
+
+.button-style {
+	margin: 20px 0px 20px 0px;
+}
+
+.button-style a {
+	padding: 7px 20px 7px 20px;
+	background: #CEC3A0;
+	border-radius: 5px;
+	line-height: normal;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #8A8B71;
+	font-family: 'Abel', sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		position: relative;
+		text-align: center;
+		background: url(../images/banner.jpg) no-repeat center;
+		background-size: cover;
+	}
+
+
+	#page {
+		padding: 5em 0em;
+		background: #FFF
+	}
+	
+	#content header
+	{
+		margin-bottom: 2em !important;
+	}
+
+	#content header h2
+	{
+		line-height: 1.2em;
+		font-size: 3em;
+	}
+
+	#content
+	{
+	}
+	
+	#footer
+	{
+		padding: 5em 0em;
+	}
+
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+	
+	#copyright
+	{
+		position: relative;
+		text-align: center;
+	}
+	
+	#copyright .container
+	{
+		padding: 3em 0em;
+		border-top: 1px solid;
+		border-color: rgba(0,0,0,.1);
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+	}
+	
+	
+	#main
+	{
+		padding: 5em 0em;
+		background: #FFF
+	}	
