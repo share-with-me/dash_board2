@@ -11,7 +11,7 @@ To run the application:<br/>
 2. Install MongoDB. The link for installation procedure is <a href = "https://docs.mongodb.org/manual/installation/">this</a>.  <br/>
 3. Now navigate to the folder where you installed MongoDB and locate the bin folder. Start the mongoDB server by typing in ./mongo <br>
 4. Keep the terminal running as is and open up a new terminal. Navigate again to the same directory (bin) and import the dataset in this directory by typing in <br>
-   ./mongoimport -d donorschoose -c projects --type csv --headerline --file <location of the dataset>
+   ./mongoimport -d donorschoose -c projects --type csv --headerline --file sampledata.csv <br>
 5. Install Nodejs and NPM<br/>
 6. Navigate to the dash_board2 directory using command prompt and run npm install, this will install the dependencies<br/>
 7. Navigate to the dash_board2 directory using command prompt and run npm start<br/>
