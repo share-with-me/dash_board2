@@ -1,3 +1,4 @@
+This example makes use of node.js server with the use of npm to run the application.<br/>
 Dashboard built using:<br/>
 D3.js<br/>
 Dc.js<br/>
